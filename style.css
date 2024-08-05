@@ -1,0 +1,472 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 5px;
+   padding: 0px;
+}
+
+body {
+ background-color: white; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+   color: black;
+   font-family: 'Lora', arial;
+   font-weight: bold;
+   font-size: 100px;
+   text-align: center;
+   padding-bottom: none;
+}
+
+h2 {
+    color: black;
+     font-family: 'Lora', arial;
+     font-weight: bold;
+     font-style: italic;
+     font-size: 70px;
+     padding-top: 1em;
+}
+
+h4 {
+   color: black;
+     font-family: 'Lora', arial;
+     font-weight: bold;
+     font-style: italic;
+   font-size: 50px;
+     padding-top: 1em;
+}
+
+h3 {
+   padding-bottom: 1em;
+   color: black;
+     font-family: 'Lora', arial;
+     font-weight: bold;
+     font-style: italic;
+   font-size: 30px;
+     padding-top: 1em;
+   text-align: center;
+}
+
+p {
+   color: black;
+     font-family: 'Lora', arial;
+     font-size: 20px;
+     padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+a {
+   color: white;
+     font-family: 'Lora', arial;
+     font-size: 20px;
+   padding-top: 1em;
+}
+
+.focus {
+   color: black;
+     font-family: 'Lora', arial;
+     font-size: 30px;
+   padding-bottom: 1em;
+    text-align: center;
+}
+
+.preview {
+  color: red;
+     font-family: 'Lora', arial;
+     font-size: 30px;
+   padding-top: 1em;
+   padding-bottom: 1em;
+  text-align: center;
+}
+
+.check {
+  text-align: center;
+}
+
+.section1 {
+ text-align: center;
+}
+
+.warning {
+  color: red;
+}
+
+.cmhead {
+  padding-bottom: 1em;
+   color: black;
+     font-family: 'Lora', arial;
+     font-weight: bold;
+     font-style: italic;
+   font-size: 30px;
+     padding-top: 1em;
+   text-align: center;
+}
+
+.takeactionhead {
+   color: black;
+     font-family: 'Lora', arial;
+     font-weight: bold;
+     font-style: italic;
+   font-size: 50px;
+     padding-top: 2em;
+}
+
+.strat {
+  padding-bottom: 2em;
+  list-style: disc inside; 
+  padding: 0;
+  margin: 0;
+}
+
+.takeactionbody {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  text-align: center;
+}
+
+.take {
+  list-style: disc inside; 
+  padding: 0;
+  margin: 0;
+}
+
+.takehead {
+  color: black;
+     font-family: 'Lora', arial;
+     font-weight: bold;
+   font-size: 25px;
+}
+
+.reflectac {
+  color: black;
+     font-family: 'Lora', arial;
+     font-weight: bold;
+   font-size: 40px;
+  text-align: center;
+}
+
+#reflect {
+  text-align: center;
+  color: black;
+     font-family: 'Lora', arial;
+     font-weight: bold;
+   font-size: 25px;
+}
+
+.list1 {
+  color: white;
+}
+
+.hhhead {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.hhhead12 {
+   padding-bottom: none;
+}
+
+.hhhead1 {
+  padding-bottom: 1em;
+}
+
+.hhhead2 {
+   padding-top: 1em;
+}
+
+/* GENERAL ul STYLING */
+ul {
+  list-style: disc;
+   font-family: 'Lora', arial;
+  margin-left: 20px; 
+   color: black;
+}
+
+/* SPECIFIC CLASS BULLET LIST */
+ul.bullet-list {
+  list-style: disc; 
+  padding-left: 20px; 
+  padding-bottom: 2em;
+  font-family: 'Lora', arial;
+}
+ul.bullet-list li {
+  margin-bottom: 10px;
+}
+.sublist {
+   padding-bottom: 1em;
+   font-family: 'Lora', arial;
+}
+.aofhead {
+   font-size: 30px;
+  color: black;
+}
+.takeactionhead {
+   font-size: 40px;
+}
+.video1 {
+   padding-top: 2em;
+  padding-bottom: 2em;
+}
+.video2 {
+   padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+/* STYLE IMAGES */
+
+.blm {
+   margin-bottom: 4em;
+     max-width: 50%;
+     border-radius: 50%;
+}
+
+.center-image {
+  text-align: center;
+}
+
+.center-image img {
+  display: inline-block;
+}
+
+.indeximage {
+   border-radius: 20%;
+   border: 6px solid black;  
+}
+
+.pic1 {
+   border-radius: 20%;
+   border: 6px solid black;  
+   max-width: 25%;
+}
+
+.pic2 {
+   border-radius: 20%;
+   border: 6px solid black;  
+   max-width: 25%;
+}
+
+.pic3 {
+   border-radius: 20%;
+   border: 6px solid black;  
+   max-width: 25%;
+}
+
+.pic4 {
+   border-radius: 20%;
+   border: 6px solid black;  
+   max-width: 25%;
+}
+
+.cmpic1 {
+  border-radius: 20%;
+   border: 6px solid black;  
+   max-width: 25%;
+}
+
+.aofpic {
+    border-radius: 20%;
+     border: 6px solid black;  
+     max-width: 25%;
+  }
+
+.takeactionpic {
+  border-radius: 20%;
+   border: 6px solid black;  
+   max-width: 25%;
+}
+
+@media screen and (max-width: 850px) {
+.flex-container {
+  flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 600px) {
+.flex-container {
+  flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 769px) {
+.flex-container {
+  flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 992px) {
+.flex-container {
+  flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 1200px) {
+.flex-container {
+  flex-wrap: wrap;
+}
+}
+/* STYLE NAV BAR */
+.nav {
+  list-style-type: none;
+  background-color: red;
+  overflow: hidden;
+  padding: 1em;
+  margin: 0px;
+  display: flex;
+  justify-content: center; 
+}
+.nav ul {
+  display: flex;
+  list-style: none !important; 
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  margin: 0 10px;  
+}
+.nav li {
+  display: inline;
+ }
+.nav li a {
+  text-decoration: none; 
+  color: white;
+  font-size: 1.3em; 
+  padding: 1em;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+}
+.nav li a:hover {
+  background-color: black;
+} 
+
+/* STYLE BUTTONS */
+#myButton {
+  font-family: "Lora" , serif;
+  font-style: bold;
+  color: black;
+  border: 5px solid black;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+#myButton2 {
+  font-family: "Lora" , serif;
+  font-style: bold;
+  color: black;
+  border: 5px solid black;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+
+/* ADD MORE! */
+.scriptQues {
+  background: red;
+  border-radius: 10px; 
+  border-style: none; 
+  border: 5px solid black;
+
+  padding: 15px; 
+
+  margin-top:30px; 
+  margin-left: 10%; 
+  margin-right: 10%;
+
+  font-family: 'Lora', serif; 
+  font-size: 40px;
+  font-style: bold;
+  text-align: center; 
+  line-height: 1.2em; 
+  color: black; 
+}
+
+.genFact {
+  background: red;
+  border-radius: 10px; 
+  border-style: none; 
+  border: 5px solid black;
+
+  padding: 15px; 
+
+  margin-top:30px; 
+  margin-left: 30%; 
+  margin-right: 30%;
+
+  font-family: 'Lora', serif; 
+  font-size: 50px;
+  font-style: bold;
+  text-align: center; 
+  line-height: 1.2em; 
+  color: black; 
+}
+
+.quickfacts {
+  font-family: 'Lora', serif; 
+  font-size: 40px;
+  font-style: bold;
+}
+
+#fact {
+  border-style: none; 
+
+  padding: 15px; 
+
+  margin-top: 30px;
+  margin-left: 15%; 
+  margin-right: 15%; 
+
+  font-family: 'Lora', serif; 
+  font-size: 40px; 
+  text-align: center; 
+  line-height: 1.2em; 
+  color: black; 
+  
+}
+
+.attribution {
+   text-align: center;
+  color: black;
+}
+
+.genHis {
+  background: red;
+  border-radius: 10px; 
+  border-style: none; 
+  border: 5px solid black;
+
+  padding: 15px; 
+
+  margin-top:30px; 
+  margin-left: 10%; 
+  margin-right: 10%;
+
+  font-family: 'Lora', serif; 
+  font-size: 50px;
+  font-style: bold;
+  text-align: center; 
+  line-height: 1.2em; 
+  color: black; 
+}
+
+#history {
+  border-style: none; 
+
+  padding: 15px; 
+
+  margin-top: 30px;
+  margin-left: 15%; 
+  margin-right: 15%; 
+
+  font-family: 'Lora', serif; 
+  font-size: 40px; 
+  text-align: center; 
+  line-height: 1.2em; 
+  color: black; 
+}
+
+.text {
+  font-family: 'Lora', serif; 
+  font-size: 40px;
+  font-style: bold;
+}
